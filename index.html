@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.png">
+    <title>Spotify - The Best Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="logo-spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCR- No Copyright Releases</h1>
+            <div class="songItemContainer">
+                
+                <div class="songItem">
+                    <img src="./1.jpg" alt="song-cover-1">
+                    <span class="songNames">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id= "0"class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./1.jpg" alt="song-cover-1">
+                    <span class="songNames">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:32 <i id= "1"class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./1.jpg" alt="song-cover-1">
+                    <span class="songNames">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">02:44 <i id= "2"class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./1.jpg" alt="song-cover-1">
+                    <span class="songNames">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">04:23 <i id= "3"class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./1.jpg" alt="song-cover-1">
+                    <span class="songNames">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">04:01 <i id= "4"class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./1.jpg" alt="song-cover-1">
+                    <span class="songNames">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:56 <i id= "5"class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-3x" id="previous"></i>
+            <i class="fa-solid fa-circle-play fa-3x" id="masterplay"></i>
+            <i class="fa-solid fa-forward-step fa-3x" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./playing.gif" alt="music-playing" width="40px" id="gif"> <span id="masterSongName">Warriyo</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ee592c28b1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
